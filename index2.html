@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina secundaria</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!-- Estilo Personalizado -->
+    <link rel="stylesheet" href="CSSP03_2.css">
+
+    <script src="Final.js"></script>
+
+    <style>
+        /* Estilos para el carrusel */
+        #carousel-container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #image-carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-image {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para los controles del carrusel */
+        .carousel-control {
+            cursor: pointer;
+            font-size: 24px;
+            background: transparent;
+            border: none;
+            outline: none;
+            margin: 0 10px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- Boton que muestra cuando se reduce el tamaño
+    de la página de Navegación -->
+    <div class="menuBoton">
+        <i class="fas fa-bars fa-2x"></i>
+        <!--<i class="fa fa-times-circle"></i>-->
+        <!--<i class="fas fa-search”></i>-->
+        <!--<i class="fas fa-angle-double-right”></i>-->
+        <!--<i class=“fas fa-bars fa-2x”></i>-->
+        <!--<i class=“fas fa-chevron-right”></i>-->
+        <!--<i class=“fas fa-caret-up”></i>-->
+    </div>
+    <div class="contenidoPrincipal">
+        <nav class="navegacionPrincipal">
+            <img src="imagenes/logo.png" alt="Logo" clas="navLogo">
+            <ul class="navMenu">
+                <li>
+                    <a href="index.html">Moda</a>
+                </li>
+                <li>
+                    <a href="index.html">Ropa</a>
+                </li>
+                <li>
+                    <a href="index.html">Hombre</a>
+                </li>
+                <li>
+                    <a href="index.html">Mujer</a>
+                </li>
+                <li>
+                    <a href="index.html">Niños</a>
+                </li>
+                <li>
+                    <a href="index.html">Zapatos</a>
+                </li>
+                <li>
+                    <a href="index.html">HI</a>
+                </li>
+            </ul>
+
+            <!-- Navegación derecha -->
+            <ul class="navMenuDerecha">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"> Comprar</i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <!--- Muestra Encabezado -->
+        <header class="muestraEncabezado">
+            <h2>¡Grandes noticias hoy!</h2>
+            <p>
+                "Aprovecha las ofertas del mes"
+            </p>
+            <a href="#" class="boton">
+                Registrarse <i class="fas fa-chevron-right"></i>
+            </a>
+        </header>
+
+
+        <!-- Imagenes del Tema -->
+
+        <div class="temaImagenes">
+            <div>
+                <img src="Imagenes/1.png" alt="si">
+                <h3>Playera Angel</h3>
+                <p>Playera estampado angel renacimiento</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="Imagenes/11.png" alt="si">
+                <h3>Sudadera franjas</h3>
+                <p>Sudadera Franjas LOGO Off-White</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="Imagenes/12.png" alt="si">
+                <h3>Sudadera Angel</h3>
+                <p>Sudadera estampado angel renacimiento</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="Imagenes/10.png" alt="si">
+                <h3>Playera Off-White LOGO </h3>
+                <p>Playera LOGO OW</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Banner -1 -->
+        <section>
+            <!--<div class="contenido">
+                <h2> Vestir bien para toda ocación</h2>
+                <p>
+                    Somos apasionados por el estilo urbano y la cultura callejera, y aquí encontrarás la mejor selección de ropa streetwear para expresar tu autenticidad y actitud única. Desde las calles de Nueva York hasta los rincones más vibrantes de Tokio, nuestra colección está inspirada en las tendencias urbanas de todo el mundo.
+                </p>
+                <a href="#" class="boton"> Más informacion
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>-->
+            <!-- <div class="carousel">
+                <img src="Imagenes/1.png" alt="Imagen 1">
+                <img src="Imagenes/2.png" alt="Imagen 2">
+                <img src="Imagenes/3.png" alt="Imagen 3">
+                <img src="Imagenes/4.png" alt="Imagen 4">
+                <img src="Imagenes/5.png" alt="Imagen 5">
+                <img src="Imagenes/6.png" alt="Imagen 6">
+                <img src="Imagenes/7.png" alt="Imagen 7">
+                <img src="Imagenes/8.png" alt="Imagen 8">
+                <img src="Imagenes/9.png" alt="Imagen 9">
+                <img src="Imagenes/10.png" alt="Imagen 10">
+                <img src="Imagenes/11.png" alt="Imagen 11">
+                <img src="Imagenes/12.png" alt="Imagen 12">
+                
+              
+                <button class="next">Siguiente</button>
+                <button class="prev">Anterior</button>
+              </div> -->
+
+            <div id="carousel-container">
+                <div id="image-carousel">
+                    <img class="carousel-image" src="Imagenes/1.png" alt="Imagen 1">
+                    <img class="carousel-image" src="Imagenes/2.png" alt="Imagen 2">
+                    <img class="carousel-image" src="Imagenes/3.png" alt="Imagen 3">
+                    <img class="carousel-image" src="Imagenes/4.png" alt="Imagen 4">
+                    <img class="carousel-image" src="Imagenes/5.png" alt="Imagen 5">
+                    <img class="carousel-image" src="Imagenes/6.png" alt="Imagen 6">
+                    <img class="carousel-image" src="Imagenes/7.png" alt="Imagen 7">
+                    <img class="carousel-image" src="Imagenes/8.png" alt="Imagen 8">
+                    <img class="carousel-image" src="Imagenes/9.png" alt="Imagen 9">
+                    <img class="carousel-image" src="Imagenes/10.png" alt="Imagen 10">
+                    <img class="carousel-image" src="Imagenes/11.png" alt="Imagen 11">
+                    <img class="carousel-image" src="Imagenes/12.png" alt="Imagen 12">
+                </div>
+            </div>
+
+            <button class="carousel-control" onclick="prevSlide()">❮</button>
+            <button class="carousel-control" onclick="nextSlide()">❯</button>
+        </section>
+
+
+        <div class="temaImagenes">
+            <div>
+                <img src="imagenes/2.png" alt="si">
+                <h3>SNKRS Pink</h3>
+                <p>Comodos SNKRS para toda ocación</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="imagenes/3.png" alt="si">
+                <h3>Wallet LOGO</h3>
+                <p>Wallet BLK LOGO</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="imagenes/6.png" alt="si">
+                <h3>Bolso LOGO Street</h3>
+                <p>Bolso blanco cruze peatonal LOGO</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="imagenes/7.png" alt="si">
+                <h3>Chamarra negra</h3>
+                <p>Chamarra negra corta mangas largas</p>
+                <a href="#">Comprar
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Video  --> 
+        <section>
+            <h1>Video Promocional</h1>
+
+            <video width="640" height="360" controls>
+                <source src="Imagenes/video.mp4" type="video/mp4">
+            </video>
+        </section>
+        <!-- Redes Sociales  --> <!-- * 7 *-->
+        <section class="Social">
+            <p>SoyMoisesES</p>
+            <div class="enlaceSocial">
+                <a href="https://www.facebook.com/moises.enriquezsilva/">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/MoisesESSoy">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/soymoiseses/?hl=es">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+        </hr>
+    </div>
+    <!-- Enlaces para pie de página -->
+    <div class="enlace-pie-pagina">
+        <div class="contenidoPrincipal">
+            <ul>
+                <li>
+                    <a href="#"> All</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"> Primavera </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"> Verano </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"> Otoño </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"> Invierno </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Pie de página -->
+    <footer class="piePagina">
+        <h3> Copyriht SoyMoisesES Co</h3>
+    </footer>
+    <script>
+        // JavaScript para el carrusel
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const carousel = document.getElementById("image-carousel");
+            const slideWidth = document.querySelector(".carousel-image").width;
+            const newTransformValue = -index * slideWidth + "px";
+            carousel.style.transform = "translateX(" + newTransformValue + ")";
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % document.querySelectorAll(".carousel-image").length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + document.querySelectorAll(".carousel-image").length) % document.querySelectorAll(".carousel-image").length;
+            showSlide(currentIndex);
+        }
+    </script>
+</body>
+
+</html>
